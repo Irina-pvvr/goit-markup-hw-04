@@ -1,0 +1,382 @@
+body 
+{font-family: Roboto, sans-serif;}
+
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/* скидаємо відступи */
+ul, 
+li {
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+/* HEADER */
+/* 1-а сторінка Основна частина*/
+/* 1-а сторінка, Секція 1 з кнопкою- */
+
+/* обмежено межі фону через селектор батька */
+.page-button-order {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.page-button-order-service  {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19em;
+    display: block;
+    align-items: center; 
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    width: 169px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.page-button-order-service:hover {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-order-service:focus {
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+.page-button-title {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.01em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    max-width: 494px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.header-logo-web {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5; 
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    margin-right: 76px;
+}
+/* Оформлення слів Studio Portfolio Contacts*/
+.header-link {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-bottom: 24px;
+    padding-top: 24px; 
+}
+/* оформлення контактыв та кнопок меню в рядок */
+.header-lists {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+/* селектор нащадка - застосувати до класу контейнер, який міститься в класі хедер-пейдж */
+.header-page>.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Оформлення телефону та імейл*/
+
+.header-contacts {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    color:#434455;
+    gap: 40px;
+}
+/* 1-а сторінка, 
+Секція 2 Принципи компанії */
+
+.principles-container {
+    gap: 24px;
+}
+.principles-wrap {
+    width: 264px;
+}
+.principles {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background: #F4F4FD;
+}
+.text-title {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-top: 8px;
+}
+
+/* 1-а сторінка заголовки секцій 
+наша робота, наша команда*/
+.title-section {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+/* ставимо картинки в ряд */
+
+ .list { 
+    display: flex;
+}
+
+
+/* 1-а сторінка, 
+Секція 4 Команда компанії
+імена, професія */
+
+.names-job {
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.name {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.job {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.doing {
+padding-bottom: 120px; 
+}
+
+.doing-wrap {
+    gap: 24px;
+}
+/* 2-а сторінка */
+
+
+
+/* оформлення кнопок 2-а сторінка портфоліо
+all, web-site, app, design, marketing*/
+.header-page { 
+   border-bottom: 1px solid #E7E9FC; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-item {
+    padding-right: 24px;
+}
+
+.button-item:last-child {
+    padding-right: 0px;
+}
+.button-name
+ {  font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    height: 48px;
+    padding: 12px, 24px, 12px, 24px;
+}
+
+.button-name:hover 
+{color: #FFFFFF;background: #404BBF;}
+
+.button-name:focus 
+{color: #FFFFFF; background: #404BBF;} 
+
+/* PORTFOLIO*/
+
+.portfolio-wrap {
+    width: 360px;
+    height: 420px;
+}
+
+.portfolio-container {
+padding-top: 96px;
+padding-bottom: 120px;
+}
+.portfolio {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+margin-top: 72px;
+}
+
+.portfolio-photo:nth-child(3n) 
+{
+    margin-right: 0;
+}
+
+.portfolio-photo {
+    display: flex;
+    margin-bottom: 48px;
+    outline: 1px solid #E7E9FC;}
+    
+.portfolio-photo:nth-last-child(-n + 3)
+{margin-bottom: 0;}
+
+.portfolio-title-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+.portfolio-title 
+{   font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+.portfolio-text 
+{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* псевдоклас маржин за винятком кожного 3-го елементу */
+
+/* ФУТЕР */
+.footer-page {
+    background-color:  #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-logo {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    
+}
+
+.footer-logo-web {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+} 
+.text-fotter {
+   font-family: inherit;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5em;
+   letter-spacing: 0.02em;
+   color: #E7E9FC;
+   max-width: 264px;
+   margin-top: 16px;
+}
+
+/* БЛОКОВІ МОДЕЛІ */
+/* ШИРИНА КОНТЕЙНЕРУ оригінал 1158+50 додатковий падінг */
+.container {
+width: 1158px; 
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+/* outline: 1px solid red */
