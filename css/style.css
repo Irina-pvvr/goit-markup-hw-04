@@ -220,6 +220,10 @@ h1, h2, h3, p {
 /* 1-а сторінка, 
 Секція 4 Команда компанії
 імена, професія */
+.team-wrap-list {
+display: flex;
+gap: 24px;
+}
 .team-wrap {
     background-color: #FFFFFF;
     display: flex;
@@ -284,6 +288,39 @@ margin-top: 8px;
     align-items: center;
     justify-content: center;
 } 
+
+/* 1-а сторінка, 
+Секція 5 Клієнти компанії
+імена, професія */
+.customers {
+    padding-bottom: 120px;
+    padding-top: 130px; 
+}
+
+.customers-wrap-list{
+display: flex;
+justify-content: center;
+}
+.customers-icon{
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.customers-wrap {
+width: 168px;
+height: 88px;
+border: 1px solid #8E8F99;
+border-radius: 4px;
+box-sizing: border-box;
+margin-right: 24px;
+}
+
+.customers-wrap:not(:last-child) {
+    margin-right: 24px;
+}
 
 /* 2-а сторінка */
 
