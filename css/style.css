@@ -458,6 +458,11 @@ margin-top: 72px;
     color: #4D5AE5;
 } 
 
+.wrap-icon-text-fotter {
+display: block;
+width: 208px;
+height: 80px;
+}
 
 .text-fotter {
    font-family: inherit;
@@ -471,13 +476,13 @@ margin-top: 72px;
 }
 
 .icon-text-fotter {
-font-weight: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5em;
-letter-spacing: 0.02em;
-color: #FFFFFF;
-
+    font-weight: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .icon-fotter-list{
@@ -488,7 +493,6 @@ color: #FFFFFF;
 .icon-fotter-item {
     width: 40px;
     height: 40px;
-    margin-top: 16px;
 }
 
 .icon-fotter-link {
