@@ -462,10 +462,15 @@ margin-top: 72px;
     color: #4D5AE5;
 } 
 
+ .footer-page > .container {
+    display: flex;
+}
+
 .wrap-icon-text-fotter {
 display: block;
 width: 208px;
 height: 80px;
+margin-left: 120px;
 }
 
 .text-fotter {
