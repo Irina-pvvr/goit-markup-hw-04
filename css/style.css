@@ -34,6 +34,10 @@ h1, h2, h3, p {
     url('../image/people-office\ 1.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+
    /* невпевнена */
     
     background-size: 1440px;
@@ -158,17 +162,17 @@ h1, h2, h3, p {
     width: 264px;
 }
 
-/* 
-.title::before{
-    content: '';
+
+.principles-icons-background {
     width: 264px;
     height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
     display: block;
     margin-bottom: 8px;
-    background-image: ;
-} */
+    text-align: center;
+    padding-top: 24px;
+} 
 .principles {
     padding-top: 120px;
     padding-bottom: 120px;
