@@ -60,6 +60,7 @@ h1, h2, h3, p {
     justify-content: center;
     margin: 0 auto;
     border-radius: 4px;
+    border: 1px solid #4D5AE5;
 }
 
 .page-button-order-service:hover {
@@ -367,6 +368,8 @@ all, web-site, app, design, marketing*/
     background: #F4F4FD;
     height: 48px;
     padding: 12px, 24px, 12px, 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .button-name:hover 
@@ -381,6 +384,7 @@ all, web-site, app, design, marketing*/
     width: 360px;
     height: 420px;
 }
+
 
 .portfolio-container {
 padding-top: 96px;
@@ -401,8 +405,9 @@ margin-top: 72px;
 .portfolio-photo {
     display: flex;
     margin-bottom: 48px;
-    outline: 1px solid #E7E9FC;}
-    
+    outline: 1px solid #E7E9FC;
+}
+
 .portfolio-photo:nth-last-child(-n + 3)
 {margin-bottom: 0;}
 
@@ -513,6 +518,7 @@ margin-left: 120px;
     align-items: center;
     justify-content: center;
 }
+
 /* БЛОКОВІ МОДЕЛІ */
 /* ШИРИНА КОНТЕЙНЕРУ оригінал 1158+30 додатковий падінг */
 .container {
